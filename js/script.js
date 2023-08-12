@@ -1,0 +1,1 @@
+function HideDialog(){$("#bkgOverlay").fadeOut(400),$("#delayedPopup").fadeOut(300)}$(document).ready((function(){$("#bkgOverlay").delay(144e4).fadeIn(400),$("#delayedPopup").delay(144e4).fadeIn(400),$("#btnClose").click((function(e){HideDialog(),e.preventDefault()})),$(".backgroundOverlay").click((function(e){HideDialog(),e.preventDefault()}))}));
